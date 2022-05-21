@@ -1,0 +1,141 @@
+.main {
+    margin: auto;
+    max-width: 1980px;
+}
+.textmain {
+
+    background: #c5ff00;
+
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+.brand {
+    text-align: center;
+    font-size: 50px;
+}
+.link {
+    width: 1920px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #c5ff00;
+    position: relative;
+    top: +800px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.linkkars {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: +480px;
+    font-size: 75px;
+    link: #000000;
+
+}
+.game {
+    width: 600px;
+    height: 200px;
+    background: #c5ff00;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: +450px;
+}
+.gamehit {
+    text-align: center;
+    position: relative;
+    top: +35px;
+    color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.wrapper {
+    margin: 200px auto;
+    width: 520px;
+    background: #c5ff00;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-family: 'Arial';
+    top: +300px;
+    font-size: 60px;
+}
+#check-menu {
+    display: none;
+}
+.menu-swap {
+    color: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+.burger-line {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    width: 35px;
+    height: 4px;
+    background-color: #000000;
+    transition: .5s all;
+
+}
+.second, .third {
+    top: 34px;
+}
+.fourth {
+    top: 50px;
+}
+.main-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+}
+.link-menu {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #c5ff00;
+
+
+}
+#check-menu:checked ~ .main-menu {
+    max-height: 500px;
+    font-size: 30px;
+}
+#check-menu:checked ~ .first {
+    display: none;
+}
+#check-menu:checked ~ .second {
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third {
+    transform: rotate(-45deg);
+}
+#check-menu:checked ~ .fourth {
+    display: none;
+}

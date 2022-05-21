@@ -1,0 +1,158 @@
+.panel {
+    margin: auto;
+
+    margin: 0;
+    padding: 0;
+}
+
+.blest {
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.3);
+}
+.forzaLogo {
+    position: relative;
+    top: -110px;
+    margin-left: 150px;
+
+}
+.bugatti {
+
+    position: relative;
+    top: -121px;
+
+}
+.main {
+    box-sizing: border-box;
+}
+.tableUp {
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.blestDown {
+
+    position: relative;
+    top: -140px;
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px -50px 30px rgb(0, 0, 0, 0.3);
+}
+.tableopis {
+    margin: auto;
+    position: relative;
+    top: -150px;
+}
+.down {
+    margin: auto;
+    position: relative;
+    top: -150px;
+    width: 100%;
+}
+.fondown {
+    height: 900px;
+    width: 1648px;
+    background: #ffffff;
+    position: relative;
+    top: -1260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.3);
+}
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 68px;
+}
+.koenigseggdown {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 300px;
+    background: #000000;
+    top: -1250px;
+    position: relative;
+}
+.rassmotrim {
+    position: relative;
+    top: +20px;
+    color: #e4e8f3;
+    font-size: 112px;
+}
+.logotipe {
+    width: 800px;
+    position: relative;
+    top: -3065px;
+}
+.text2 {
+    width: 1920px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f8cd92;
+    position: relative;
+    top: -3100px;
+    font-size: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.3);
+}
+.down2 {
+    width: 1920px;
+    height: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    position: relative;
+    top: -1250px;
+}
+.link {
+    width: 1920px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffad3b;
+    position: relative;
+    top: -3000px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.linkkars {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -3350px;
+    font-size: 75px;
+    link: #000000;
+
+}
+.main {
+    width: 100%;
+}
+.game {
+    width: 250px;
+    height: 150px;
+    background: #ffad3b;
+    border-radius: 10px;
+    font-size: 50px;
+    margin: auto;
+    position: relative;
+    top: -3350px;
+}
+.gamehit {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+
+
+
+
+
+
+

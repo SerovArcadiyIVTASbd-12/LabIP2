@@ -1,0 +1,25 @@
+.link {
+    width: 1920px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fa0a16;
+    position: relative;
+    top: +50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.linkkars {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -250px;
+    font-size: 75px;
+    link: #000000;
+}
+div {
+
+}

@@ -1,0 +1,56 @@
+.main {
+    margin: auto;
+    max-width: 1980px;
+}
+.textmain {
+
+    background: #f6e6a6;
+
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+.brand {
+    text-align: center;
+    font-size: 50px;
+}
+.link {
+    width: 1920px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f6e6a6;
+    position: relative;
+    top: +800px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.linkkars {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: +480px;
+    font-size: 75px;
+    link: #000000;
+}
+div {
+
+}
+.game {
+    width: 600px;
+    height: 200px;
+    background: #f6e6a6;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: +450px;
+}
+.gamehit {
+    text-align: center;
+    position: relative;
+    top: +35px;
+    color: black;
+}
